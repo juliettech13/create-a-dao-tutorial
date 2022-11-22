@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-# create-a-dao-tutorial
-Learn how to create a DAO with this easy to use tutorial
-=======
+# Create a DAO using aragonOSx Tutorial
+
+*This is currently a WIP.*
+
 This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit).
 
 ## Getting Started
@@ -31,4 +31,3 @@ You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
->>>>>>> c80f331 (Initial commit from create-rainbowkit)
