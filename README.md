@@ -1,29 +1,50 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit).
+# Create your own custom DAO using aragonOSx
+
+This is a Next.JS boilerplate providing developers with everything they need to get up and running with creating a DAO using aragonOSx SDK.
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository locally by running:
+
+```bash
+git clone <github clone link> && cd .
+```
+
+Then, install all packages by running:
+
+```bash
+npm install
+```
+
+To see the code live in your browser, run:
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Then, to start editing the codebase - your entry point to the app is going to be `pages/index.tsx`.
+By diving into the `LandingPage` page, you'll find the `CreateDAOForm` which is the form that will create your DAO.
 
-## Learn More
+## Repository Rundown
 
-To learn more about this stack, take a look at the following resources:
+Currently, this boilerplate contains all the UI you will need to get up and running to create your own custom DAO.
 
-- [RainbowKit Documentation](https://rainbowkit.com) - Learn how to customize your wallet connection flow.
-- [wagmi Documentation](https://wagmi.sh) - Learn how to interact with Ethereum.
-- [Next.js Documentation](https://nextjs.org/docs) - Learn how to build a Next.js application.
+Within `pages`, you will find:
+- ___app__: this is the file where we set up our Ethereum connection.
+- __index.tsx__: the entrypoint to the home of the app.
+- __components folder__: containing the components we'll use throught the UI
+- __LandingPage__: Landing page design containing the DAO creation form.
 
-You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-me/rainbowkit) - your feedback and contributions are welcome!
+We also have a file called `strings/index.tsx`, where you can find all the strings used within the platform. That way, if you ever want to internationalize this repository, you can do so easier, as well as support platform performance.
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [aragonOSx](https://aragon.org): DAO framework, permission management protocol.
+- [Alchemy](https://alchemy.com/): Web3 provider.
+- [RainbowKit](https://rainbowkit.com): Customize the wallet connection flow.
+- [wagmi](https://wagmi.sh): Ethereum interaction.
+- [Next.js](https://nextjs.org/docs): Building a Next.js application.
+- [TailwindCSS](https://tailwindcss.com/): CSS framework.
 
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
