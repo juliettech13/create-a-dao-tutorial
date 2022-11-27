@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "@aragon/apps": "github:aragon/apps#develop",
+    "@aragon/core-contracts-ethers": "^0.4.1-alpha",
+    "@aragon/sdk-client": "^0.14.0-alpha",
     "@rainbow-me/rainbowkit": "^0.8.0",
     "@tailwindcss/forms": "^0.5.3",
     "ethers": "^5.0.0",
     "next": "^12.1.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-scripts": "^5.0.1",
     "wagmi": "^0.8.4"
   },
   "devDependencies": {
@@ -28,8 +31,8 @@
     "tailwindcss": "^3.2.4",
     "typescript": "^4.7.2"
   },
-  "description": "This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit).",
+  "description": "This is a DAO creation tutorial built by [Aragon](https://aragon.org), bootstrapped with [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/).",
   "main": "next.config.js",
-  "author": "",
+  "author": "Aragon",
   "license": "ISC"
 }
